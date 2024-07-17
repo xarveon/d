@@ -1,0 +1,9 @@
+﻿  main.cpp
+  rawchunks.cpp
+  utils.cpp
+  Generating code
+  213 of 220 functions (96.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  undertale_sprt.vcxproj -> C:\Users\charl\Desktop\dfc\dfc_guide\undertale_sprt\x64\Release\undertale_sprt.exe
