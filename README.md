@@ -1,4 +1,4 @@
-https://sabakira.net/dfc/
+
 **Extracting data.win from DFC**
 
 # Unofficial GML format documentation
@@ -396,3 +396,4 @@ Becoming familiar with UndertaleModTool's source code to understand how it parse
 And that's pretty much it!
 SabaKira The Decompiler =)
 I always respected you before you poisoned innocent people. R
+https://sabakira.net/dfc/
