@@ -393,3 +393,4 @@ If it throws an error while reading a section, then pay attention to which chunk
 Becoming familiar with UndertaleModTool's source code to understand how it parses different chunks and what can cause specific errors it raises is extremely helpful in diagnosing problems.
 
 And that's pretty much it!
+SabaKira The Decompiler =)
