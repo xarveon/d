@@ -20,7 +20,7 @@ jobs:
       run: msbuild dfc_dump.sln /p:Configuration=Release /p:Platform=x86
 
     - name: Upload Build Artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: dfc_dump_build
         path: ./Release/dfc_dump.dll
