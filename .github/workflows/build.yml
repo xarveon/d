@@ -17,7 +17,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1
 
     - name: Build Solution
-      run: msbuild dfc_dump.sln /p:Configuration=Release /p:Platform=x86
+      run: msbuild dfc_dump/dfc_dump.sln /p:Configuration=Release /p:Platform=x86
 
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v4.6.0
