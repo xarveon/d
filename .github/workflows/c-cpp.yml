@@ -1,0 +1,19 @@
+name: Build dfc_dump
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up MSBuild
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Build Solution
+      run: msbuild dfc_dump.sln /p:Configuration=Release
