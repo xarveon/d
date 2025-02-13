@@ -1,0 +1,26 @@
+name: Build dfc_dump
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up MSBuild
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Build Solution
+      run: msbuild dfc_dump.sln /p:Configuration=Release /p:Platform=x86
+
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: dfc_dump_build
+        path: ./Release/dfc_dump.dll
